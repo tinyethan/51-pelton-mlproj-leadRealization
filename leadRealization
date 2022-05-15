@@ -1,0 +1,72 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled0.ipynb",
+      "provenance": [],
+      "toc_visible": true,
+      "authorship_tag": "ABX9TyNPv4/O3h4uarht9ZiuB7wh",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/tinyethan/51-pelton-mlproj-leadRealization/blob/main/leadRealization\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Lead Realization"
+      ],
+      "metadata": {
+        "id": "b5DGpMNlDA80"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Background\n",
+        "Nashville attracts a great deal of interest from individuals, groups, and organizations seeking a destination to acheive their travel and meeting needs. The Nashville CVC aids in connecting them with local resources, moving them from an initial lead status to either definite, canceled, or lost. Traces are a written record of interactions between the Nashville CVC representative and the inquiring enity."
+      ],
+      "metadata": {
+        "id": "ekugYXOY7DJy"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Project Description\n",
+        "\n",
+        "This project analyzes traces associated with each lead, identifying trends in verbage to give a quality score to each lead."
+      ],
+      "metadata": {
+        "id": "A7pJkso58dpG"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# Performance Metric\n",
+        "This project uses a simple accuracy metric - the number of correct predictions devided by the total number of predictions. Historical data will be used to deliver this metric, which will then determine confidence for predictive ability."
+      ],
+      "metadata": {
+        "id": "mHddPDNx9Zj5"
+      }
+    }
+  ]
+}
