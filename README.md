@@ -1,7 +1,7 @@
 # 51-pelton-mlproj-leadRealization
 Analysis of leads that are turned definite in relation to words found in their corresponding traces
 
-<strong>Description of Metrics</strong>
+<h2>Description of Metrics</h2>
 The data used will include the status of each lead, and the body text of each trace associated with the lead.
 
 Not all words in the traces will be relavant, therefore, words that occure most commonly in leads that have been turned, lost, deffinite, or cancled will be extracted.
