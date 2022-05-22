@@ -1,6 +1,9 @@
 # 51-pelton-mlproj-leadRealization
 Analysis of leads that are turned definite in relation to words found in their corresponding traces
 
+<strong>Colab Notebook</strong>
+https://colab.research.google.com/drive/19U7Zansm18JzuQsoxz8gRbQY5oOErQnX?usp=sharing
+
 <h2>Description of Metrics</h2>
 The data used will include the status of each lead, and the body text of each trace associated with the lead.
 
