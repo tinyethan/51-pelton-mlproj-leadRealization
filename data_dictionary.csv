@@ -1,3 +1,3 @@
 ﻿leadid,unique primary key
-traceContent,"The free form, textual content of all traces related to this lead"
+traceContent,"The free form, textual content of all traces related to this lead. Traces are notes entered by a sales rep detailing interactions with clients."
 leadStatus,"The final status of the lead. Either Definite, Lost, or Canceled"
