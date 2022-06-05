@@ -1,11 +1,11 @@
-﻿	Data Type,	Description
-traceid,	int,	"Primary key for trace"
-bookingid,	int,	"Foreign key of booking"
-salesRep,	varchar,	"The sales representative that entered the trace"
-traceAction,	varchar,	"The type of trace. Types include A Appt, A Call, A Email, A Note, A ProsEx, A ProsNE, Amenity, Bur Prom, ClientTn, Def, FAM, Follow, Hotel, Ind Recp, Internal, InvRev, Lead, LocalCal, LostBiz, MatRequ, Out Call, Overflow, PROD, Prop, SiteVist, SPONSR, TradeSho"
-traceStatus,	varchar,	"Whether the trace is open or closed. Closed means that the action detailed in the trace has been addressed. Open means it has not."
-comments,	varchar,	"The comments entered by the sales rep detailing any action taken or need to be taken."
-createDate,	datetime,	"The date that the trace was created."
-updateDate,	datetime,	"The date of the most recent update of the trace."
-leadStatus,	varchar,	"The final status of the lead. Leads transition from Prospect through various other status' until they either go in to definite, lost, or canceled status."
+﻿	Data Type,Description
+traceid,int,"Primary key for trace"
+bookingid,int,"Foreign key of booking"
+salesRep,varchar,"The sales representative that entered the trace"
+traceAction,varchar,"The type of trace. Types include A Appt, A Call, A Email, A Note, A ProsEx, A ProsNE, Amenity, Bur Prom, ClientTn, Def, FAM, Follow, Hotel, Ind Recp, Internal, InvRev, Lead, LocalCal, LostBiz, MatRequ, Out Call, Overflow, PROD, Prop, SiteVist, SPONSR, TradeSho"
+traceStatus,varchar,"Whether the trace is open or closed. Closed means that the action detailed in the trace has been addressed. Open means it has not."
+comments,varchar,"The comments entered by the sales rep detailing any action taken or need to be taken."
+createDate,datetime,"The date that the trace was created."
+updateDate,datetime,"The date of the most recent update of the trace."
+leadStatus,varchar,"The final status of the lead. Leads transition from Prospect through various other status' until they either go in to definite, lost, or canceled status."
 
